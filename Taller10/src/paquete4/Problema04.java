@@ -24,7 +24,8 @@ public class Problema04 {
         boolean mayoroIgual = true;
         boolean mayor = false;
 
-        System.out.printf("Ingrese los valores para las matrices A y B (%dx%d):\n", filas, columnas);
+        System.out.printf("Ingrese los valores para las matrices A y B "
+                + "(%dx%d):\n", filas, columnas);
         for (int f = 0; f < filas; f++) {
             for (int c = 0; c < columnas; c++) {
                 System.out.printf("A[%d][%d]: ", f, c);
