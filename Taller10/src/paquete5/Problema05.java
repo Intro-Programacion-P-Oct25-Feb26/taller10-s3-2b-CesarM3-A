@@ -27,7 +27,8 @@ public class Problema05 {
                     case "S":
                     case "P":
                     case "T":
-                        mensaje = mensaje + String.format("-%s\n", nombreCompleto);
+                        mensaje = mensaje + String.format("-%s\n"
+                                , nombreCompleto);
                         break;
                     default: 
                         break;
